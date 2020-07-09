@@ -8,7 +8,7 @@ export default () =>
       partition='parti'
       partitionColor='or'
       piece='bordure'
-      pieceColor='gules'
+      pieceColor='azure'
       meubles={[{name: 'star', dispo: 'r1', color: 'argent'}]}
     />
     <Badge 
@@ -16,26 +16,26 @@ export default () =>
       partition='arlequin'
       partitionColor='argent'
       piece='pairle'
-      pieceColor='pine'
+      pieceColor='savle'
       meubles={[
-        {name: 'rond', dispo: 's1', color: 'argent'},
-        {name: 'rond', dispo: 's4', color: 'argent'},
-        {name: 'rond', dispo: 's6', color: 'argent'},
-        {name: 'rond', dispo: 's7', color: 'argent'},
-        {name: 'rond', dispo: 'y3', color: 'argent'},
-        {name: 'rond', dispo: 'y4', color: 'argent'}
+        {name: 'rond', dispo: 's1', color: 'orange'},
+        {name: 'rond', dispo: 's4', color: 'rose'},
+        {name: 'rond', dispo: 's6', color: 'sky'},
+        {name: 'rond', dispo: 's7', color: 'sinople'},
+        {name: 'rond', dispo: 'y3', color: 'or'},
+        {name: 'rond', dispo: 'y4', color: 'purpure'}
       ]}
     />
     <Badge 
       background='pine'
       partition='ecartelesautoir'
-      partitionColor='sinople'
+      partitionColor='tenny'
       piece='bande'
-      pieceColor='gules'
+      pieceColor='wine'
       meubles={[
         {name: 'manatee', dispo: 's3', color: 'argent'},
         {name: 'manatee', dispo: 's12', color: 'argent'},
-        {name: 'rond', dispo: 'p1', color: 'fer'}
+        {name: 'heightstar', dispo: 'p1', color: 'fer'}
       ]}
     />
   </div>;
