@@ -27,8 +27,12 @@ const Badge = (props) => (
       </radialGradient>
     </defs>
     <path d={shield} style={{fill: getColor(props.background), strokeWidth: '0'}} />
-    <path d={getPartition(props.partition)}  style={{fill: getColor(props.partitionColor)}} />
-    <path d={getPiece(props.piece)}  style={{fill: getColor(props.pieceColor)}} />
+    {props.partition ? 
+      <path d={getPartition(props.partition)}  style={{fill: getColor(props.partitionColor)}} />
+    : ''}
+    {props.partition ? 
+      <path d={getPiece(props.piece)}  style={{fill: getColor(props.pieceColor)}} />
+    : ''}
     {props.meubles ? props.meubles.map((m) =>
       <path key={m.dispo} d={getMeuble(m.name)}
         style={{fill: getColor(m.color), stroke: getColorComp(m.color), strokeWidth: '0.3'}}
