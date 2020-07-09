@@ -12,8 +12,8 @@ const shield = 'M 0,0 m -12,-12 h24 v12 C 12,10 0,15 0,15 C 0,15, -12,10 -12,0 z
 // background: String
 // partition: String
 // partitionColor: String
-// frame: String
-// frameColor: String
+// piece: String
+// pieceColor: String
 // meubles: [{name: String, dispo: String, color: String}, ...]
 
 const Badge = (props) => (
